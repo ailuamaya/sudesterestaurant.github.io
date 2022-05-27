@@ -1,0 +1,41 @@
+$colorfondo: #090909;
+$colorletras: silver;
+$estiloletras: 'Cormorant Garamond', serif;
+@mixin carta {
+    border-radius: 10px;
+    width: 100%;
+
+    
+}
+.seccion{
+    font-family: $estiloletras;
+    font-style: italic;
+    text-align: center;
+}
+
+.menu{
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    .col{
+        display: flex;
+        justify-content: center;    
+      .card{    
+      justify-content: center;
+      width: 500px;
+      height: 700px;
+      background-color: black;
+      opacity: 0.7;
+      border-radius: 20px;     
+     }
+    }
+}
+     .entradas{
+    @include carta;
+    }
+
+     
+
+    
+
+

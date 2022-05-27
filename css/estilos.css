@@ -1,0 +1,57 @@
+@media (max-width: 960px) {
+  body {
+    width: 100vh; }
+    body footer {
+      width: 100vh; } }
+
+.seccion {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  text-align: center; }
+
+.menu {
+  margin-left: 15px;
+  display: flex;
+  justify-content: center; }
+  .menu .col {
+    display: flex;
+    justify-content: center; }
+    .menu .col .card {
+      justify-content: center;
+      width: 500px;
+      height: 700px;
+      background-color: black;
+      opacity: 0.7;
+      border-radius: 20px; }
+
+.entradas {
+  border-radius: 10px;
+  width: 100%; }
+
+body {
+  background-color: #090909;
+  font-family: "Cormorant Garamond", serif;
+  color: silver; }
+  body header .historia {
+    text-align: center;
+    display: flex; }
+    body header .historia h2 {
+      font-style: italic;
+      margin: 10px; }
+      body header .historia h2 p {
+        font-style: italic;
+        font-size: medium;
+        justify-content: center;
+        align-items: center; }
+  body .fotosudeste {
+    max-width: 100%;
+    border-radius: 20px; }
+  body .fotocopas {
+    max-width: 100%;
+    border-radius: 20px; }
+  body footer {
+    background-color: beige;
+    color: #090909;
+    text-align: center; }
+    body footer .iconos {
+      width: 2%; }

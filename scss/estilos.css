@@ -1,0 +1,23 @@
+body {
+  background-color: #090909;
+  font-family: 'Cormorant Garamond', serif;
+  color: silver;
+}
+
+header {
+  font-style: inherit;
+}
+
+header h2 {
+  font-style: italic;
+}
+
+.iconos {
+  width: 2%;
+}
+
+footer {
+  background-color: beige;
+  color: #090909;
+}
+/*# sourceMappingURL=estilos.css.map */

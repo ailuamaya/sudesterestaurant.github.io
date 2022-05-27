@@ -1,0 +1,49 @@
+@import "media";
+@import "menu";
+$colorfondo: #090909;
+$colorletras: silver;
+$estiloletras: 'Cormorant Garamond', serif;
+@mixin fotos {
+    max-width: 100%;
+    border-radius: 20px;
+    
+}
+
+
+body{
+    background-color: $colorfondo;
+    font-family: $estiloletras;
+    color: $colorletras;
+    
+   header{
+         .historia{               
+          text-align: center;
+          display: flex;
+            
+          h2{ 
+            font-style: italic;
+            margin: 10px;           
+            p{
+               font-style: italic;
+               font-size: medium;
+               justify-content: center;
+               align-items: center;
+           }
+          }
+        }
+    } 
+         .fotosudeste{
+          @include fotos;
+          }
+          .fotocopas{
+          @include fotos;
+        }
+    footer{
+        background-color: beige;
+        color:#090909;
+        text-align: center;
+        .iconos{
+            width: 2%;
+        }
+    }
+}
